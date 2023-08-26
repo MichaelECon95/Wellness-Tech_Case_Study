@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dailySteps_merged.csv data
-df_daily_steps = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/dailySteps_merged.csv')
+df_daily_steps = pd.read_csv('/.../dailySteps_merged.csv')
 
 # Display the first few rows of the dataframe
 df_daily_steps.head()
