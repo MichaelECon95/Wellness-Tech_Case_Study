@@ -3,11 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dailyIntensities_merged.csv data
-df_daily_intensities = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/dailyIntensities_merged.csv')
+df_daily_intensities = pd.read_csv('/.../dailyIntensities_merged.csv')
 
 # Display the first few rows of the dataframe
 df_daily_intensities.head()
-
 
 # General exploration of the dailyIntensities data
 
