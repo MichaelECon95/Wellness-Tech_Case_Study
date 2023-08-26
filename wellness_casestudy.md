@@ -118,9 +118,9 @@ Guiding questions
 
 #### Follow these steps:
 
-1. Download the **[dataset](https://###.com/)**
+1. Download the dataset
 2. Unzip the files
-3. Create a folder on your desktop or Drive to house the ﬁles. Use appropriate ﬁle-naming conventions. For guidance please reference these **[tips](https://###.com/)** provided by Google in their "Google Data Analytics Professional Certificate".
+3. Create a folder on your desktop or Drive to house the ﬁles. Use appropriate ﬁle-naming conventions. For guidance please reference these **[tips](https://github.com/MichaelECon95/Wellness-Tech_Case_Study/blob/main/FileNaming_BestPractice.md/)** provided by Google in their "Google Data Analytics Professional Certificate".
 
 4. Upload the data to a tool of your choice. For a refresher on some diﬀerent ways to do this, feel free to reference any of the following resources on how to get started in the following tools
 
