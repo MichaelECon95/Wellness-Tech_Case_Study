@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the hourlyCalories_merged.csv data
-df_hourly_calories = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/hourlyCalories_merged.csv')
+df_hourly_calories = pd.read_csv('/.../hourlyCalories_merged.csv')
 
 # Display the first few rows of the dataframe
 df_hourly_calories.head()
