@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the first data file
-data_file_path = '/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv'
+data_file_path = '/.../dailyActivity_merged.csv'
 df_daily_activity = pd.read_csv(data_file_path)
 
 # Display the first few rows of the dataset
