@@ -4,12 +4,12 @@
 ### Introduction
 Bellabeat, a high-tech company that manufactures health-focused smart products, stands at the cusp of a market brimming with potential. As consumer health awareness rises, the demand for products that offer insights into one's health and wellness grows in tandem. The data derived from Bellabeat's current user base offers a treasure trove of insights, ready to be unlocked.
 
-In this report, we delve deep into the datasets capturing user behaviors across various metrics, ranging from daily activity levels to sleep patterns. The aim? To derive actionable insights that can guide Bellabeat's strategic decisions and marketing campaigns.
+In this report, I dive deep into the datasets capturing user behaviors across various metrics, ranging from daily activity levels to sleep patterns. The aim? To derive actionable insights that can guide Bellabeat's strategic decisions and marketing campaigns.
 
 ### Data Overview and Methodology
 
 #### Data Sources:
-We utilized datasets from Fitbit, a fitness device company. These datasets provide comprehensive details about user behaviors, including their daily activity, sleep patterns, heart rate, and more.
+I utilized datasets from Fitbit, a fitness device company. These datasets provide comprehensive details about user behaviors, including their daily activity, sleep patterns, heart rate, and more.
 
 #### Key Datasets Include:
 
