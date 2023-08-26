@@ -4,7 +4,7 @@ import seaborn as sns
 
 
 # Load the dailyCalories_merged.csv data
-df_daily_calories = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/dailyCalories_merged.csv')
+df_daily_calories = pd.read_csv('/.../dailyCalories_merged.csv')
 
 # Display the first few rows of the dataframe
 df_daily_calories.head()
