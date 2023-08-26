@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the minuteIntensitiesNarrow_merged.csv data
-df_minute_intensities = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/minuteIntensitiesNarrow_merged.csv')
+df_minute_intensities = pd.read_csv('/.../minuteIntensitiesNarrow_merged.csv')
 
 # Display the first few rows of the dataframe
 df_minute_intensities.head()
