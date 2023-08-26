@@ -4,7 +4,7 @@ import seaborn as sns
 
 
 # Load the minuteMETsNarrow_merged.csv data
-df_minute_METs = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/minuteMETsNarrow_merged.csv')
+df_minute_METs = pd.read_csv('/.../minuteMETsNarrow_merged.csv')
 
 # Display the first few rows of the dataframe
 df_minute_METs.head()
@@ -26,7 +26,6 @@ desc_stats_minute_METs = df_minute_METs.describe()
 missing_values_minute_METs = df_minute_METs.isnull().sum()
 
 info_minute_METs, desc_stats_minute_METs, missing_values_minute_METs
-
 
 '''
 Basic Information:
@@ -84,7 +83,7 @@ Aggregate the MET values and steps on a daily basis for each user.
 Plot a scatter plot to visualize the relationship between daily MET values and daily steps.
 '''
 
-df_daily_activity = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv')
+df_daily_activity = pd.read_csv('/.../dailyActivity_merged.csv')
 
 # Aggregating MET values and steps on a daily basis for each user
 df_minute_METs['Date'] = pd.to_datetime(df_minute_METs['ActivityMinute']).dt.date
@@ -136,7 +135,7 @@ Plot scatter plots to visualize the relationship between daily MET values and sl
 '''
 
 
-df_sleep_day = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv')
+df_sleep_day = pd.read_csv('/.../sleepDay_merged.csv')
 df_sleep_day.head()
 
 '''
@@ -191,7 +190,7 @@ Merge the aggregated datasets based on the common identifier (Id) and timestamp.
 Visualize the relationship between MET values and heart rate.
 '''
 
-df_heartrate = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/heartrate_seconds_merged.csv')
+df_heartrate = pd.read_csv('/.../heartrate_seconds_merged.csv')
 
 
 import datetime as dt
