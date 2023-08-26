@@ -2,9 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # Load the hourlySteps_merged.csv data
-df_hourly_steps = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/hourlySteps_merged.csv')
+df_hourly_steps = pd.read_csv('/.../hourlySteps_merged.csv')
 
 # Display the first few rows of the dataframe
 df_hourly_steps.head()
@@ -24,7 +23,6 @@ desc_stats_hourly_steps = df_hourly_steps.describe()
 missing_values_hourly_steps = df_hourly_steps.isnull().sum()
 
 info_hourly_steps, desc_stats_hourly_steps, missing_values_hourly_steps
-
 
 '''
 Basic Information:
