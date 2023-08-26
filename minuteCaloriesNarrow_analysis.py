@@ -2,10 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
-
 # Load the minuteCaloriesNarrow_merged.csv data
-df_minute_calories = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/minuteCaloriesNarrow_merged.csv')
+df_minute_calories = pd.read_csv('/.../minuteCaloriesNarrow_merged.csv')
 
 # Display the first few rows of the dataframe
 df_minute_calories.head()
