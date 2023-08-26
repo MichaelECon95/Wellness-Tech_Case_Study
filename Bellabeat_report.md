@@ -19,7 +19,7 @@ We utilized datasets from Fitbit, a fitness device company. These datasets provi
 * METs (Metabolic Equivalent of Task): A physiological measure that illustrates the energy cost of activities.
 
 #### Methodology:
-Our approach involved a multi-step process:
+My approach involved a multi-step process:
 
 1. Data Cleaning: Ensuring the data is free from inconsistencies and missing values.
 2. Exploratory Data Analysis: Diving deep into each dataset to understand the distributions and general patterns.
