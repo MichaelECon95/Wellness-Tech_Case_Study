@@ -4,7 +4,7 @@ import seaborn as sns
 
 
 # Load the heartrate_seconds_merged.csv data
-df_heartrate = pd.read_csv('/Users/michaelcontreras/Desktop/Fitabase Data 4.12.16-5.12.16/heartrate_seconds_merged.csv')
+df_heartrate = pd.read_csv('/.../heartrate_seconds_merged.csv')
 
 # Display the first few rows of the dataframe
 df_heartrate.head()
@@ -49,8 +49,6 @@ plt.title('Distribution of Heart Rate Values')
 plt.xlabel('Heart Rate (bpm)')
 plt.ylabel('Frequency')
 plt.show()
-
-
 
 '''
 Based on the descriptive statistics we've observed:
